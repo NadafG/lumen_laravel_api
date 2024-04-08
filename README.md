@@ -1,26 +1,27 @@
-# Lumen PHP Framework
+# Laravel Lumen API
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
+This is a basic Laravel Lumen API project.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## Description
 
-> **Note:** In the years since releasing Lumen, PHP has made a variety of wonderful performance improvements. For this reason, along with the availability of [Laravel Octane](https://laravel.com/docs/octane), we no longer recommend that you begin new projects with Lumen. Instead, we recommend always beginning new projects with [Laravel](https://laravel.com).
+This API project is built using the Laravel Lumen framework. It provides endpoints for [describe what your API does].
 
-## Official Documentation
+## Features
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+- Product crud operation
+- User Authentication 
+- ...
 
-## Contributing
+## Installation
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. Clone the repository: `git clone [repository_url]`
+2. Navigate to the project directory: `cd laravel-lumen-api`
+3. Install dependencies: `composer install`
+4. Copy the `.env.example` file to `.env` and configure your environment variables.
+5. Generate the application key: `php artisan key:generate`
+6. Run the migrations: `php artisan migrate`
+7. Start the development server: `php -S localhost:8000 -t public`
 
-## Security Vulnerabilities
+## Usage
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+You can use [Postman](https://www.postman.com/) or any
